@@ -1,0 +1,22 @@
+const increment = (a) => a + 1;
+
+increment(1);
+
+increment('1');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+moment().add(increment(1), 'day');
+
+moment().add(increment('1'), 'day');

@@ -1,0 +1,4 @@
+const myArray: any[] = [1, '2', '🐐'];
+
+const myObjectOfNumbers: any =
+  { a: 1, b: 2, any: 'thing' };

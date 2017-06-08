@@ -1,0 +1,5 @@
+let increment = (a: number): number => a + 1;
+
+increment(1);
+
+increment('1');

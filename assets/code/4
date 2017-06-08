@@ -1,0 +1,14 @@
+const myArray: number[] = [1, 2, 3];
+const myArray: Array<number> = [1, 2, 3];
+
+interface IMyObject {
+  a: number;
+  b: number;
+  c?: number;
+}
+
+const myObjectOfNumbers: IMyObject =
+  { a: 1, b: 2 };
+
+const myArrayOfObjects: IMyObject[] =
+  [{ a: 1, b: 2, c: 3 }]
